@@ -119,10 +119,10 @@ p {
 
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 600px) and (max-width:1024px)  {
 
   .main {
-    width: 37%;
+    width: 40%;
     }
 
 }
