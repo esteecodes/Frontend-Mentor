@@ -10,7 +10,7 @@ body {
 .main {
   background-color: #fff;
   margin: 100px auto 100px auto;
-  width: 20%;
+  width: 23%;
   padding-bottom: 8px;
   text-align: center;
   border-radius: 15px;
@@ -40,6 +40,8 @@ p {
 }
 
 .music-note {
+  width: 60%;
+  padding: 10px;
   margin-top: 5px;
   margin-left: 7px;
 }
@@ -54,8 +56,9 @@ p {
 
 .price {
   line-height: 0.3vw;
-  padding-left: 20px;
+  padding-left: 5px;
   text-align: left;
+  margin-top: 10px;
 }
 
 .price h2 {
@@ -65,7 +68,7 @@ p {
 
 .link {
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 80px;
   font-weight:700;
 }
 
@@ -136,15 +139,15 @@ p {
  }
 
   .music-note {
-    width: 150%;
+    width: 100%;
     margin-top: 0.8vh;
     margin-bottom: 0.6vh;
     margin-left: 1.5vw;
   }
 
   .price {
-    padding-left: 5.5vh;
-    padding-right: 1.6vw;
+    padding-left: 4.5vh;
+    padding-right: 1vw;
     line-height: 1.3vh;
   }
 
@@ -154,8 +157,8 @@ p {
   }
   
   .link {
-    padding-top: 3vh;
-    padding-left: 8vw;
+    padding-top: 4vh;
+    padding-left: 6vw;
     font-weight: 700;
     font-size: 2.5vh;
   }
@@ -199,11 +202,12 @@ p {
   }
 
   .music-note {
-    width: 90%;
+    width: 70%;
+    padding-left: 1vw;
   }
 
   .price {
-    padding-left: 3vw;
+    padding-left: 0.5vw;
     text-align: left;
   }
 
@@ -218,8 +222,8 @@ p {
   }
 
   .link {
-    padding-top: 3vh;
-    padding-left: 5vw;
+    padding-top: 3.4vh;
+    padding-left: 4.5vw;
     font-weight:700;
     font-size: 1.8vh;
   }
