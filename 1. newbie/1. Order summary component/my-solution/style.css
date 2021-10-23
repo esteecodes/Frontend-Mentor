@@ -132,9 +132,6 @@ p {
 .attribution { font-size: 15px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
-
-
 @media screen and (min-width: 1315px) and (max-width: 1790px) {
 
   .main {
@@ -321,7 +318,6 @@ p {
  
 
 }
-
 
 @media screen and (min-width: 469px) and (max-width: 600px) {
 
