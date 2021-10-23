@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  }
+}
 
 .main {
   background-color: #fff;
@@ -17,21 +17,31 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   color: #1f2d5a;
   box-shadow: -3px 10px 20px 1px rgba(128, 128, 128, 0.5);
-  }
+}
 
 img {
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
-.inside{
+.inside {
   width:80%;
   margin:auto;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight:900;
 }
 
 p {
   color: #9598ac;
   font-weight: 400;
+}
+
+.music-note {
+  margin-top: 5px;
+  margin-left: 7px;
 }
 
 .plan {
@@ -42,15 +52,15 @@ p {
   margin: auto;
 }
 
-.music-note {
-  margin-top: 5px;
-  margin-left: 7px;
-}
-
 .price {
-  line-height: .3vw;
+  line-height: 0.3vw;
   padding-left: 20px;
   text-align: left;
+}
+
+.price h2 {
+  float: left;
+  font-size: 18px;
 }
 
 .link {
@@ -93,7 +103,6 @@ p {
   
 }
 
-
 .cancel {
   margin: 30px 0 30px 0;
 }
@@ -107,22 +116,117 @@ p {
   color: #1f2d5a;
 }
 
-.attribution { font-size: 15px; text-align: center; }
+.attribution { font-size: 15px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media screen and (max-width: 375px) {
+
+@media screen and (min-width: 568px) and (max-width: 1024px) {
 
   .main {
-    width: 90%;
-    }
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 4vh;
+  }
+
+ p {
+    font-size: 2.7vh;
+ }
+
+  .music-note {
+    width: 150%;
+    margin-top: 0.8vh;
+    margin-bottom: 0.6vh;
+    margin-left: 1.5vw;
+  }
+
+  .price {
+    padding-left: 5.5vh;
+    padding-right: 1.6vw;
+    line-height: 1.3vh;
+  }
+
+  .price h2 {
+    float: left;
+    font-size: 3vh;
+  }
+  
+  .link {
+    padding-top: 3vh;
+    padding-left: 8vw;
+    font-weight: 700;
+    font-size: 2.5vh;
+  }
+
+  .button {
+    margin-top: 3vh;
+    height: 4vh;
+  }
+    
+  .button a {
+    padding-top: 10vh;
+    font-size: 2.8vh;
+  }
+
+  .cancel a {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2.8vh;
+  }
+     
+  .attribution, .attribution a { 
+    font-size: 2.3vh; 
+    padding-bottom: 3vh; 
+  }
+ 
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 567px) {
 
   .main {
-    width: 40%;
-    }
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3vh;
+  }
+
+  p {
+    font-size: 2.5vh;
+  }
+
+  .music-note {
+    width: 90%;
+  }
+
+  .price {
+    padding-left: 3vw;
+    text-align: left;
+  }
+
+  .price h2 {
+    float: left;
+    font-size: 2.3vh;
+  }
+
+  .price p {
+    font-size: 2vh;
+    line-height: 2.2vh;
+  }
+
+  .link {
+    padding-top: 3vh;
+    padding-left: 5vw;
+    font-weight:700;
+    font-size: 1.8vh;
+  }
+
+  .attribution, .attribution a { 
+    font-size: 2vh;
+    padding-bottom: 1vh;    
+  }
 
 }
