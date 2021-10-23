@@ -10,7 +10,7 @@ body {
 .main {
   background-color: #fff;
   margin: 100px auto 100px auto;
-  width: 23%;
+  width: 30%;
   padding-bottom: 8px;
   text-align: center;
   border-radius: 15px;
@@ -25,25 +25,34 @@ img {
 }
 
 .inside {
-  width:80%;
+  width: 75%;
   margin:auto;
 }
 
+.top-card {
+  width: 83%;
+  margin: auto;
+
+}
+
 h1 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight:900;
+  padding: 8px;
 }
 
 p {
+  font-size: 18px;
   color: #9598ac;
-  font-weight: 400;
+  font-weight: 500;
+  padding-bottom: 13px;
 }
 
 .music-note {
   width: 60%;
   padding: 10px;
-  margin-top: 5px;
-  margin-left: 7px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .plan {
@@ -56,19 +65,20 @@ p {
 
 .price {
   line-height: 0.3vw;
-  padding-left: 5px;
+  padding-left: 10px;
   text-align: left;
   margin-top: 10px;
 }
 
 .price h2 {
   float: left;
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .link {
-  padding-top: 20px;
-  padding-left: 80px;
+  padding-top: 35px;
+  padding-left: 140px;
   font-weight:700;
 }
 
@@ -194,43 +204,42 @@ p {
   }
 
   h1 {
-    font-size: 3vh;
+    font-size: 2.8vh;
   }
 
   p {
-    font-size: 2.5vh;
+    font-size: 1.8vh;
   }
 
   .music-note {
     width: 70%;
-    padding-left: 1vw;
+    padding-left: 0.8vw;
   }
 
   .price {
-    padding-left: 0.5vw;
+    padding-left: 2vw;
     text-align: left;
   }
 
   .price h2 {
     float: left;
-    font-size: 2.3vh;
+    font-size: 1.8vh;
   }
 
   .price p {
-    font-size: 2vh;
-    line-height: 2.2vh;
+    font-size: 1.8vh;
+    padding-left: 0.8vw;
   }
 
   .link {
-    padding-top: 3.4vh;
-    padding-left: 4.5vw;
+    padding-top: 4vh;
+    padding-left: 5vw;
     font-weight:700;
-    font-size: 1.8vh;
+    font-size: 1.6vh;
   }
 
   .attribution, .attribution a { 
     font-size: 2vh;
-    padding-bottom: 1vh;    
   }
 
 }
