@@ -200,7 +200,7 @@ p {
 @media screen and (min-width: 901px) and (max-width: 1315px) {
 
   .main {
-    width: 50%;
+    width: 40%;
   }
 
   h1 {
@@ -259,43 +259,43 @@ p {
 
 }
 
-@media screen and (min-width: 741px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
 
   .main {
     width: 80%;
   }
 
   h1 {
-    font-size: 3.5vh;
+    font-size: 4vh;
   }
 
  p {
-    font-size: 2.7vh;
+    font-size: 3vh;
  }
 
   .music-note {
-    width: auto;
-    margin-top: 0.8vh;
+    width: 60%;
+    margin-top: 1.5vh;
     margin-bottom: 0.6vh;
     margin-left: 1.5vw;
   }
 
   .price {
     padding-left: 3vh;
-    padding-right: 4vw;
-    line-height: 1.3vh;
+    padding-right: 10vw;
+    line-height: 1.8vh;
   }
 
   .price h2 {
     float: left;
-    font-size: 2.6vh;
+    font-size: 2.8vh;
   }
   
   .link {
-    padding-top: 5vh;
-    padding-left: 6vw;
+    padding-top: 6vh;
+    padding-left: 10vw;
     font-weight: 700;
-    font-size: 2.5vh;
+    font-size: 2.7vh;
   }
 
   .button {
@@ -323,18 +323,18 @@ p {
 }
 
 
-@media screen and (min-width: 375px) and (max-width: 740px) {
+@media screen and (min-width: 469px) and (max-width: 600px) {
 
   .main {
     width: 90%;
   }
 
   h1 {
-    font-size: 3vh;
+    font-size: 3.2vh;
   }
 
   p {
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
 
   .music-note {
@@ -343,23 +343,69 @@ p {
   }
 
   .price {
-    padding-right: 7vw;
+    padding-left: 1vw;
+    padding-right: 14vw;
   }
 
   .price h2 {
     float: left;
-    font-size: 2.2vh;
+    font-size: 2.6vh;
   }
 
   .price p {
-    font-size: 2.2vh;
+    font-size: 2.6vh;
+  }
+
+  .link {
+    padding-top: 6vh;
+    padding-left: 5vw;
+    font-weight: 700;
+    font-size: 2.4vh;
+  }
+
+  .attribution, .attribution a { 
+    font-size: 2vh;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 468px) {
+
+  .main {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2.7vh;
+  }
+
+  p {
+    font-size: 1.8vh;
+  }
+
+  .music-note {
+    width: auto;
+    margin-top: 1vh;
+  }
+
+  .price {
+    padding-left: 1vw;
+  }
+
+  .price h2 {
+    float: left;
+    font-size: 1.7vh;
+  }
+
+  .price p {
+    font-size: 1.7vh;
   }
 
   .link {
     padding-top: 4vh;
     padding-left: 5vw;
     font-weight: 700;
-    font-size: 1.9vh;
+    font-size: 1.6vh;
   }
 
   .attribution, .attribution a { 
