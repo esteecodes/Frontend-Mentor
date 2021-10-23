@@ -1,4 +1,3 @@
-
 body {
   background: url(images/pattern-background-desktop.svg);
   background-color:#e0e8ff;
@@ -123,6 +122,7 @@ p {
 .cancel a {
   font-weight: 600;
   text-decoration: none;
+  color: #8d94a8;
 }
 
 .cancel a:hover {
@@ -134,10 +134,11 @@ p {
 
 
 
-@media screen and (min-width: 568px) and (max-width: 1024px) {
+
+@media screen and (min-width: 1315px) and (max-width: 1790px) {
 
   .main {
-    width: 80%;
+    width: 40%;
   }
 
   h1 {
@@ -149,25 +150,149 @@ p {
  }
 
   .music-note {
-    width: 100%;
+    width: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 0.6vh;
+    margin-left: 1.5vw;
+  }
+
+  .price {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    line-height: 0.7vh;
+  }
+
+  .price h2 {
+    float: left;
+    font-size: 2.9vh;
+  }
+  
+  .link {
+    padding-top: 5.5vh;
+    padding-left: 8vw;
+    font-weight: 700;
+    font-size: 2.5vh;
+  }
+
+  .button {
+    margin-top: 3vh;
+    height: 4vh;
+  }
+    
+  .button a {
+    padding-top: 10vh;
+    font-size: 2.8vh;
+  }
+
+  .cancel a {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2.8vh;
+  }
+     
+  .attribution, .attribution a { 
+    font-size: 2.3vh; 
+    padding-bottom: 3vh; 
+  }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1315px) {
+
+  .main {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 4vh;
+  }
+
+ p {
+    font-size: 2.7vh;
+ }
+
+  .music-note {
+    width: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 0.6vh;
+    margin-left: 1.5vw;
+  }
+
+  .price {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    line-height: 0.7vh;
+  }
+
+  .price h2 {
+    float: left;
+    font-size: 2.9vh;
+  }
+  
+  .link {
+    padding-top: 5.5vh;
+    padding-left: 8vw;
+    font-weight: 700;
+    font-size: 2.5vh;
+  }
+
+  .button {
+    margin-top: 3vh;
+    height: 4vh;
+  }
+    
+  .button a {
+    padding-top: 10vh;
+    font-size: 2.8vh;
+  }
+
+  .cancel a {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 2.8vh;
+  }
+     
+  .attribution, .attribution a { 
+    font-size: 2.3vh; 
+    padding-bottom: 3vh; 
+  }
+
+}
+
+@media screen and (min-width: 741px) and (max-width: 900px) {
+
+  .main {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3.5vh;
+  }
+
+ p {
+    font-size: 2.7vh;
+ }
+
+  .music-note {
+    width: auto;
     margin-top: 0.8vh;
     margin-bottom: 0.6vh;
     margin-left: 1.5vw;
   }
 
   .price {
-    padding-left: 4.5vh;
-    padding-right: 1vw;
+    padding-left: 3vh;
+    padding-right: 4vw;
     line-height: 1.3vh;
   }
 
   .price h2 {
     float: left;
-    font-size: 3vh;
+    font-size: 2.6vh;
   }
   
   .link {
-    padding-top: 4vh;
+    padding-top: 5vh;
     padding-left: 6vw;
     font-weight: 700;
     font-size: 2.5vh;
@@ -197,45 +322,44 @@ p {
 
 }
 
-@media screen and (max-width: 567px) {
+
+@media screen and (min-width: 375px) and (max-width: 740px) {
 
   .main {
     width: 90%;
   }
 
   h1 {
-    font-size: 2.8vh;
+    font-size: 3vh;
   }
 
   p {
-    font-size: 1.8vh;
+    font-size: 2vh;
   }
 
   .music-note {
-    width: 70%;
-    padding-left: 0.8vw;
+    width: auto;
+    margin-top: 1vh;
   }
 
   .price {
-    padding-left: 2vw;
-    text-align: left;
+    padding-right: 7vw;
   }
 
   .price h2 {
     float: left;
-    font-size: 1.8vh;
+    font-size: 2.2vh;
   }
 
   .price p {
-    font-size: 1.8vh;
-    padding-left: 0.8vw;
+    font-size: 2.2vh;
   }
 
   .link {
     padding-top: 4vh;
     padding-left: 5vw;
-    font-weight:700;
-    font-size: 1.6vh;
+    font-weight: 700;
+    font-size: 1.9vh;
   }
 
   .attribution, .attribution a { 
