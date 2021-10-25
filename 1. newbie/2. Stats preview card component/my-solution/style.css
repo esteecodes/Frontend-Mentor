@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   margin: auto;
-  height: 54vh;
+  height: 47.5vh;
   width: 70vw;
   margin-top: 19vh;
   border-radius: 10px
@@ -42,8 +42,8 @@ span {
 }
 
 header {
-  height: 54vh;
-  width: 130%;
+  height: 47.5vh;
+  width: 143%;
   background: linear-gradient(to top, hsla(277, 85%, 55%, 0.5), hsl(277, 85%, 55%, 0.5)), url(images/image-header-desktop.jpg) no-repeat top center;
   border-radius: 0px 10px 10px 0;
 }
@@ -59,21 +59,90 @@ header {
   font-size: 15px; 
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1800px) {
+@media screen and (min-width: 1441px) and (max-width: 2000px) {
 
   .card {
     width: 55vw;
+    height: 47.6vh;
   }  
 
+  .content {
+    width: 40vw;
+  }
+
   .stats {
-    width: 40%;
+    margin-top: 5vh;
+    width: 19vw;
+  }
+
+  header {
+    width: 85vw;
+    height: 47.6vh;
   }
   
 }
 
+@media screen and (min-width: 621px) and (max-width: 1205px) {
+
+  .card {
+    width: 80vw;
+    height: 47.5vh;
+  }
+
+  header {
+    height: 47.5vh;
+    width: 175%;
+  }
+
+  .stats {
+    margin-top: 4vh;
+  }
+
+}
 
 
 @media screen and (min-width: 375px) and (max-width: 620px) {
+
+  .card {
+    margin-top: 1vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    border-radius: 10px;
+  }
+
+  .content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .content p {
+    line-height: 3.5vh;
+  }
+
+  .stats {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 0.7vh;
+  }
+
+  header {
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(to top, hsla(277, 85%, 55%, 0.5), hsl(277, 85%, 55%, 0.5)), url(images/image-header-mobile.jpg) no-repeat top contain;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .attribution { 
+    margin-top: 3vh; 
+  } 
+}
+
+@media screen and (max-width: 374px) {
 
   .card {
     margin-top: 1vh;
