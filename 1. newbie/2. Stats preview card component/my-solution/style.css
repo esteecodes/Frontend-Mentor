@@ -12,6 +12,7 @@ body {
   height: 54vh;
   width: 70vw;
   margin-top: 19vh;
+  border-radius: 10px
 }
 
 .content {
@@ -44,6 +45,7 @@ header {
   height: 54vh;
   width: 130%;
   background: linear-gradient(to top, hsla(277, 85%, 55%, 0.5), hsl(277, 85%, 55%, 0.5)), url(images/image-header-desktop.jpg) no-repeat top center;
+  border-radius: 0px 10px 10px 0;
 }
 
 .attribution { 
