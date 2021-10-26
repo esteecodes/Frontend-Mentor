@@ -59,26 +59,22 @@ header {
   font-size: 15px; 
 }
 
-@media screen and (min-width: 1441px) and (max-width: 2000px) {
+@media screen and (min-width: 1441px) and (max-width: 2500px) {
 
   .card {
     width: 55vw;
-    height: 50vh;
-    
+    height: 440px;
   }  
-
-  .content {
-    width: 45vw;
-  }
 
   .stats {
     width: 19vw;
   }
-
-  header {
-    height: 50vh;
-  }
   
+  header {
+    height: 440px;
+    overflow: none;
+  }
+
 }
 
 @media screen and (min-width: 621px) and (max-width: 1110px) {
