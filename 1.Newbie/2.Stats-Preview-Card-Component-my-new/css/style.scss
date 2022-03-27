@@ -7,7 +7,7 @@ body {
   background-color: #0a0c1b;
   color: #fff;
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .card {
     background-color: #1c1938;
@@ -107,6 +107,9 @@ body {
 
 @media screen and (min-width: 145px) and (max-width: 500px) {
   body {
+    overflow-x: hidden;
+    overflow-y: visible;
+
     .card {
       width: 85vw;
       height: 81vh;
@@ -199,6 +202,9 @@ body {
 
 @media screen and (min-width: 501px) and (max-width: 700px) {
   body {
+    overflow-x: hidden;
+    overflow-y: visible;
+
     .card {
       width: 85vw;
       height: 80vh;
