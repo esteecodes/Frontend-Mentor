@@ -1,0 +1,525 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0c1b;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+body .card {
+  background-color: #1c1938;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 57vh;
+  width: 59vw;
+  border-radius: 0.7rem;
+  margin: 6rem 0 9rem;
+}
+
+body .card .wrapper {
+  width: 50%;
+  padding: 3rem 5rem;
+}
+
+body .card .wrapper .content {
+  width: 75%;
+}
+
+body .card .wrapper .content h1 {
+  font-size: 2.4rem;
+  padding-bottom: 1.8rem;
+}
+
+body .card .wrapper .content span {
+  color: #aa5cdb;
+}
+
+body .card .wrapper .content p {
+  width: 90%;
+  color: #ffffffbf;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding-bottom: 2.3rem;
+}
+
+body .card .wrapper .content .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .card .wrapper .content .stats .partial {
+  margin-right: 2rem;
+}
+
+body .card .wrapper .content .stats .partial h2 {
+  font-size: 1.7rem;
+  line-height: 1.4rem;
+}
+
+body .card .wrapper .content .stats .partial p {
+  color: #ffffff99;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+body .card .hero {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+body .card .hero img {
+  height: 57vh;
+  width: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+body .card .hero:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: " ";
+  height: 57vh;
+  width: 30vw;
+  background-color: #520d70cc;
+  opacity: 0.8;
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+body .attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ffffff80;
+}
+
+body .attribution a {
+  color: #3e52a3;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 145px) and (max-width: 500px) {
+  body .card {
+    width: 85vw;
+    height: 81vh;
+    margin: 34rem 0 2rem;
+  }
+  body .card .wrapper {
+    width: 100%;
+    padding: 3rem;
+  }
+  body .card .wrapper .content {
+    width: 100%;
+  }
+  body .card .wrapper .content h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content p {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content .stats {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body .card .wrapper .content .stats .partial {
+    margin-right: 0;
+  }
+  body .card .wrapper .content .stats .partial h2 {
+    font-size: 1.8rem;
+  }
+  body .card .wrapper .content .stats .partial p {
+    font-size: 0.95rem;
+    line-height: 0.7rem;
+  }
+  body .card .hero {
+    position: absolute;
+    top: 2%;
+    left: 9.2%;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+  }
+  body .card .hero img {
+    height: 37vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.7rem 0.7rem 0 0;
+  }
+  body .card .hero:after {
+    position: absolute;
+    top: -1%;
+    left: 0;
+    display: block;
+    content: " ";
+    height: 37.5vh;
+    width: 100%;
+    background-color: #520d70cc;
+    opacity: 0.8;
+    border-radius: 0.7rem 0.7rem 0 0;
+  }
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+    margin-bottom: 2rem;
+  }
+  .attribution a {
+    color: #3e52a3;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  body .card {
+    width: 85vw;
+    height: 80vh;
+    margin: 31rem 0 2rem;
+  }
+  body .card .wrapper {
+    width: 100%;
+    padding: 3rem;
+  }
+  body .card .wrapper .content {
+    width: 100%;
+  }
+  body .card .wrapper .content h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content p {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content .stats {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body .card .wrapper .content .stats .partial {
+    margin-right: 0;
+  }
+  body .card .wrapper .content .stats .partial h2 {
+    font-size: 1.8rem;
+  }
+  body .card .wrapper .content .stats .partial p {
+    font-size: 0.95rem;
+    line-height: 0.7rem;
+  }
+  body .card .hero {
+    position: absolute;
+    top: 2%;
+    left: 8.7%;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+  }
+  body .card .hero img {
+    height: 37vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.7rem 0.7rem 0 0;
+  }
+  body .card .hero:after {
+    position: absolute;
+    top: -1%;
+    left: 0;
+    display: block;
+    content: " ";
+    height: 37.5vh;
+    width: 100%;
+    background-color: #520d70cc;
+    opacity: 0.8;
+    border-radius: 0.7rem 0.7rem 0 0;
+  }
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+    margin-bottom: 1rem;
+  }
+  .attribution a {
+    color: #3e52a3;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body .card {
+    width: 86vw;
+    margin: 4rem 0 9rem;
+  }
+  body .card .wrapper {
+    width: 50%;
+    padding: 1.7rem 3rem;
+  }
+  body .card .wrapper .content {
+    width: 75%;
+  }
+  body .card .wrapper .content h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content p {
+    width: 90%;
+    color: #ffffffbf;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.6rem;
+  }
+  body .card .wrapper .content .stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .card .wrapper .content .stats .partial {
+    margin-right: 1.2rem;
+  }
+  body .card .wrapper .content .stats .partial h2 {
+    font-size: 1.3rem;
+    line-height: 1rem;
+  }
+  body .card .wrapper .content .stats .partial p {
+    color: #ffffff99;
+    font-size: 0.8rem;
+    line-height: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  body .card .hero {
+    position: absolute;
+    left: 55%;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+  body .card .hero img {
+    height: 57vh;
+    width: 39vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .card .hero:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: " ";
+    height: 57vh;
+    width: 39vw;
+    background-color: #520d70cc;
+    opacity: 0.8;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+  }
+  body .attribution a {
+    color: #3e52a3;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+  body .card {
+    width: 75vw;
+    margin: 6rem 0 9rem;
+  }
+  body .card .wrapper {
+    width: 50%;
+    padding: 1.7rem 3.5rem;
+  }
+  body .card .wrapper .content {
+    width: 75%;
+  }
+  body .card .wrapper .content h1 {
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+  }
+  body .card .wrapper .content span {
+    color: #aa5cdb;
+  }
+  body .card .wrapper .content p {
+    width: 90%;
+    color: #ffffffbf;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    padding-bottom: 1.6rem;
+  }
+  body .card .wrapper .content .stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .card .wrapper .content .stats .partial {
+    margin-right: 2rem;
+  }
+  body .card .wrapper .content .stats .partial h2 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  body .card .wrapper .content .stats .partial p {
+    color: #ffffff99;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  body .card .hero {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+  }
+  body .card .hero img {
+    height: 57vh;
+    width: 38.5vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .card .hero:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: " ";
+    height: 57vh;
+    width: 38.5vw;
+    background-color: #520d70cc;
+    opacity: 0.8;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+  }
+  body .attribution a {
+    color: #3e52a3;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1840px) {
+  body .card {
+    width: 68vw;
+  }
+  body .card .wrapper {
+    width: 50%;
+    padding: 1.7rem 3.5rem;
+  }
+  body .card .wrapper .content {
+    width: 75%;
+  }
+  body .card .wrapper .content h1 {
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+  }
+  body .card .wrapper .content span {
+    color: #aa5cdb;
+  }
+  body .card .wrapper .content p {
+    width: 90%;
+    color: #ffffffbf;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    padding-bottom: 2.5rem;
+  }
+  body .card .wrapper .content .stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .card .wrapper .content .stats .partial {
+    margin-right: 2rem;
+  }
+  body .card .wrapper .content .stats .partial h2 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  body .card .wrapper .content .stats .partial p {
+    color: #ffffff99;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  body .card .hero {
+    position: absolute;
+    left: 50%;
+    width: 35vw;
+    height: auto;
+    overflow: hidden;
+  }
+  body .card .hero img {
+    height: 57vh;
+    width: 35vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .card .hero:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: " ";
+    height: 57vh;
+    width: 35vw;
+    background-color: #520d70cc;
+    opacity: 0.8;
+    border-radius: 0 0.7rem 0.7rem 0;
+  }
+  body .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+  }
+  body .attribution a {
+    color: #3e52a3;
+    font-size: 0.9rem;
+  }
+}

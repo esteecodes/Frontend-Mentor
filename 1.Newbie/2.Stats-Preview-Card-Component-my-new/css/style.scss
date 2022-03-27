@@ -1,0 +1,571 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0c1b;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+
+  .card {
+    background-color: #1c1938;
+    display: flex;
+    height: 57vh;
+    width: 59vw;
+    border-radius: 0.7rem;
+    margin: 6rem 0 9rem;
+
+    .wrapper {
+      width: 50%;
+      padding: 3rem 5rem;
+
+      .content {
+        width: 75%;
+
+        h1 {
+          font-size: 2.4rem;
+          padding-bottom: 1.8rem;
+        }
+
+        span {
+          color: #aa5cdb;
+        }
+
+        p {
+          width: 90%;
+          color: #ffffffbf;
+          font-size: 1rem;
+          line-height: 1.8rem;
+          padding-bottom: 2.3rem;
+        }
+
+        .stats {
+          display: flex;
+
+          .partial {
+            margin-right: 2rem;
+
+            h2 {
+              font-size: 1.7rem;
+              line-height: 1.4rem;
+            }
+
+            p {
+              color: #ffffff99;
+              font-size: 1rem;
+              line-height: 1rem;
+              text-transform: uppercase;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+
+    .hero {
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: auto;
+      overflow: hidden;
+
+      img {
+        height: 57vh;
+        width: 30vw;
+        object-fit: cover;
+        border-radius: 0 0.7rem 0.7rem 0;
+      }
+    }
+
+    .hero:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      content: " ";
+      height: 57vh;
+      width: 30vw;
+      background-color: #520d70cc;
+      opacity: 0.8;
+      border-radius: 0 0.7rem 0.7rem 0;
+    }
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+
+    a {
+      color: #3e52a3;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 145px) and (max-width: 500px) {
+  body {
+    .card {
+      width: 85vw;
+      height: 81vh;
+      margin: 34rem 0 2rem;
+
+      .wrapper {
+        width: 100%;
+        padding: 3rem;
+
+        .content {
+          width: 100%;
+
+          h1 {
+            font-size: 1.9rem;
+            text-align: center;
+            padding-bottom: 1rem;
+          }
+
+          p {
+            width: 100%;
+            font-size: 1.1rem;
+            text-align: center;
+            padding-bottom: 1rem;
+          }
+
+          .stats {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .partial {
+              margin-right: 0;
+
+              h2 {
+                font-size: 1.8rem;
+              }
+
+              p {
+                font-size: 0.95rem;
+                line-height: 0.7rem;
+              }
+            }
+          }
+        }
+      }
+
+      .hero {
+        position: absolute;
+        top: 2%;
+        left: 9.2%;
+        width: 85%;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          height: 37vh;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 0.7rem 0.7rem 0 0;
+        }
+      }
+
+      .hero:after {
+        position: absolute;
+        top: -1%;
+        left: 0;
+        display: block;
+        content: " ";
+        height: 37.5vh;
+        width: 100%;
+        background-color: #520d70cc;
+        opacity: 0.8;
+        border-radius: 0.7rem 0.7rem 0 0;
+      }
+    }
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+    margin-bottom: 2rem;
+
+    a {
+      color: #3e52a3;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  body {
+    .card {
+      width: 85vw;
+      height: 80vh;
+      margin: 31rem 0 2rem;
+
+      .wrapper {
+        width: 100%;
+        padding: 3rem;
+
+        .content {
+          width: 100%;
+
+          h1 {
+            font-size: 1.9rem;
+            text-align: center;
+            padding-bottom: 1rem;
+          }
+
+          p {
+            width: 100%;
+            font-size: 1.1rem;
+            text-align: center;
+            padding-bottom: 1rem;
+          }
+
+          .stats {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .partial {
+              margin-right: 0;
+
+              h2 {
+                font-size: 1.8rem;
+              }
+
+              p {
+                font-size: 0.95rem;
+                line-height: 0.7rem;
+              }
+            }
+          }
+        }
+      }
+
+      .hero {
+        position: absolute;
+        top: 2%;
+        left: 8.7%;
+        width: 85%;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          height: 37vh;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 0.7rem 0.7rem 0 0;
+        }
+      }
+
+      .hero:after {
+        position: absolute;
+        top: -1%;
+        left: 0;
+        display: block;
+        content: " ";
+        height: 37.5vh;
+        width: 100%;
+        background-color: #520d70cc;
+        opacity: 0.8;
+        border-radius: 0.7rem 0.7rem 0 0;
+      }
+    }
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff80;
+    margin-bottom: 1rem;
+
+    a {
+      color: #3e52a3;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body {
+    .card {
+      width: 86vw;
+      margin: 4rem 0 9rem;
+
+      .wrapper {
+        width: 50%;
+        padding: 1.7rem 3rem;
+
+        .content {
+          width: 75%;
+
+          h1 {
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+          }
+
+          p {
+            width: 90%;
+            color: #ffffffbf;
+            font-size: 0.85rem;
+            line-height: 1.5rem;
+            padding-bottom: 1.6rem;
+          }
+
+          .stats {
+            display: flex;
+
+            .partial {
+              margin-right: 1.2rem;
+
+              h2 {
+                font-size: 1.3rem;
+                line-height: 1rem;
+              }
+
+              p {
+                color: #ffffff99;
+                font-size: 0.8rem;
+                line-height: 0.7rem;
+                text-transform: uppercase;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+
+      .hero {
+        position: absolute;
+        left: 55%;
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          height: 57vh;
+          width: 39vw;
+          object-fit: cover;
+          border-radius: 0 0.7rem 0.7rem 0;
+        }
+      }
+
+      .hero:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        content: " ";
+        height: 57vh;
+        width: 39vw;
+        background-color: #520d70cc;
+        opacity: 0.8;
+        border-radius: 0 0.7rem 0.7rem 0;
+      }
+    }
+
+    .attribution {
+      font-size: 0.8rem;
+      text-align: center;
+      color: #ffffff80;
+
+      a {
+        color: #3e52a3;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+  body {
+    .card {
+      width: 75vw;
+      margin: 6rem 0 9rem;
+
+      .wrapper {
+        width: 50%;
+        padding: 1.7rem 3.5rem;
+
+        .content {
+          width: 75%;
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 1rem;
+          }
+
+          span {
+            color: #aa5cdb;
+          }
+
+          p {
+            width: 90%;
+            color: #ffffffbf;
+            font-size: 1rem;
+            line-height: 1.7rem;
+            padding-bottom: 1.6rem;
+          }
+
+          .stats {
+            display: flex;
+
+            .partial {
+              margin-right: 2rem;
+
+              h2 {
+                font-size: 1.3rem;
+                line-height: 1.3rem;
+              }
+
+              p {
+                color: #ffffff99;
+                font-size: 0.9rem;
+                line-height: 1rem;
+                text-transform: uppercase;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+
+      .hero {
+        position: absolute;
+        left: 50%;
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          height: 57vh;
+          width: 38.5vw;
+          object-fit: cover;
+          border-radius: 0 0.7rem 0.7rem 0;
+        }
+      }
+
+      .hero:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        content: " ";
+        height: 57vh;
+        width: 38.5vw;
+        background-color: #520d70cc;
+        opacity: 0.8;
+        border-radius: 0 0.7rem 0.7rem 0;
+      }
+    }
+
+    .attribution {
+      font-size: 0.8rem;
+      text-align: center;
+      color: #ffffff80;
+
+      a {
+        color: #3e52a3;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1840px) {
+  body {
+    .card {
+      width: 68vw;
+      // margin: 6rem 0 9rem 2rem;
+
+      .wrapper {
+        width: 50%;
+        padding: 1.7rem 3.5rem;
+
+        .content {
+          width: 75%;
+
+          h1 {
+            font-size: 1.9rem;
+            padding-bottom: 2rem;
+          }
+
+          span {
+            color: #aa5cdb;
+          }
+
+          p {
+            width: 90%;
+            color: #ffffffbf;
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+            padding-bottom: 2.5rem;
+          }
+
+          .stats {
+            display: flex;
+
+            .partial {
+              margin-right: 2rem;
+
+              h2 {
+                font-size: 1.3rem;
+                line-height: 1.3rem;
+              }
+
+              p {
+                color: #ffffff99;
+                font-size: 0.9rem;
+                line-height: 1rem;
+                text-transform: uppercase;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+
+      .hero {
+        position: absolute;
+        left: 50%;
+        width: 35vw;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          height: 57vh;
+          width: 35vw;
+          object-fit: cover;
+          border-radius: 0 0.7rem 0.7rem 0;
+        }
+      }
+
+      .hero:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        content: " ";
+        height: 57vh;
+        width: 35vw;
+        background-color: #520d70cc;
+        opacity: 0.8;
+        border-radius: 0 0.7rem 0.7rem 0;
+      }
+    }
+
+    .attribution {
+      font-size: 0.8rem;
+      text-align: center;
+      color: #ffffff80;
+
+      a {
+        color: #3e52a3;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
