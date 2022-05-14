@@ -8,7 +8,12 @@ You can use the [editor on GitHub](https://github.com/estherwhite-wd/coursera-te
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+Nelow is some basic Markdown syntax,
+## But just use HTML because it's suported
+
+### Markdown 
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
