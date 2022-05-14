@@ -32,3 +32,7 @@ Syntax highlighted code block
 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N86M8BO)
+
+<a href="https://ko-fi.com/esteecodes" target="_blank"><img src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></a> 
+
+
