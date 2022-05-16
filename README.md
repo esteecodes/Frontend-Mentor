@@ -5,9 +5,11 @@
   of the callenges into their own seperate repos.</p>
   
 <h2>Newbie Challenges</h2>
-<ul>
-<li><h3><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Module 2</a></h3></li>
-</ul>
+<ol>
+<li><h3><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Order Summary Component</a></h3></li>
+<li><h3><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Stats Preview Card Component</a></h3></li>
+</ol>
+<br>
 <h3>Connect with me on Social Media ↓</h3>
 <br/>
 <a href="https://www.linkedin.com/in/esteecodes/" target="_blank"><img src="https://github.com/esteecodes/icons/blob/main/icomoon/PNG/linkedin.png?raw=true"></a>
