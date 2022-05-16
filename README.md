@@ -1,4 +1,4 @@
-<h1>Frontend Mentor</h2>
+<h1>Frontend Mentor</h1>
 <p> Here I am collecting </p>
 <h3>Frontend Mentor Challenges</h3>
 <p>from - Oct 22, 2021</p>
