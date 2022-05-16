@@ -6,8 +6,8 @@
   
 <h2>Newbie Challenges</h2>
 <ol>
-<li><h3><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Order Summary Component</a></h3></li>
-<li><h3><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Stats Preview Card Component</a></h3></li>
+<li><h3><a href="https://esteecodes.github.io/Frontend-Mentor/1.Newbie/1.Order-Summary-Component-my-new/" target="_blank">Order Summary Component</a></h3></li>
+<li><h3><a href="https://esteecodes.github.io/Frontend-Mentor/1.Newbie/2.Stats-Preview-Card-Component-my-new/" target="_blank">Stats Preview Card Component</a></h3></li>
 </ol>
 <br>
 <h3>Connect with me on Social Media ↓</h3>
